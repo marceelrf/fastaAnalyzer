@@ -1,0 +1,16 @@
+Package: fastaAnalyzer
+Type: Package
+Title: Analise arquivos FASTA
+Version: 0.1.0
+Authors@R: c(
+ person("Marcel", "Ferreira", email = "marcel.ferreira@unesp.br",
+           role = c("aut", "cre"), comment = c(ORCID = "0000-0002-3445-0945")),
+         person("Debora", "Maeda", email = "debora.maeda@unesp.br",
+           role = c("aut", "cre"))
+           )
+Maintainer: Marcel Ferreira <marcel.ferreira@unesp.br>
+Description: Permite que você analise arquivos fasta de sequenciamento de DNA de modo simplificado.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1.0)
