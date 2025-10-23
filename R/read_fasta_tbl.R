@@ -28,21 +28,9 @@
 #' or `seqinr::read.fasta()`.
 #'
 #' @examples
-#' library(readr)
-#' library(tibble)
-#'
-#' # Example: reading a simple FASTA file
-#' # Suppose "example.fasta" contains:
-#' # >seq1
-#' # ATCG
-#' # >seq2
-#' # GGCATTA
-#'
-#' fasta_tbl <- read_fasta_tbl("fake.fasta")
+#' example_fasta <- system.file("extdata", "fake.fasta", package = "fastaAnalyzer")
+#' fasta_tbl <- read_fasta_tbl(example_fasta)
 #' print(fasta_tbl)
-#'
-#' # Keep the original tags (with ">")
-#' fasta_tbl <- read_fasta_tbl("fake.fasta", keepTag = TRUE)
 #'
 #' @importFrom readr read_lines
 #' @importFrom stringr str_remove_all

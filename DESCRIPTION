@@ -4,7 +4,7 @@ Title: Analise arquivos FASTA
 Version: 0.1.0
 Authors@R: c(
  person("Marcel", "Ferreira", email = "marcel.ferreira@unesp.br",
-           role = c("aut", "cre"), comment = c(ORCID = "0000-0002-3445-0945")),
+           role = c("aut"), comment = c(ORCID = "0000-0002-3445-0945")),
          person("Debora", "Maeda", email = "debora.maeda@unesp.br",
            role = c("aut", "cre"))
            )

@@ -5,4 +5,4 @@
 #'
 #' @format A character vector of length 6 (FASTA text lines).
 #' @source Simulated data created by Marcel Ferreira.
-"fake.fasta"
+"fake_seqs"
